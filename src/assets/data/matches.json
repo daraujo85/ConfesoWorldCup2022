@@ -1,0 +1,81 @@
+[{
+    "teamOne": "Catar",
+    "group": "Grupo A",
+    "eventDateTime": "2022-11-20 13:00",
+    "flagTeamOne": "catar.png",
+    "scoreTeamOne": 0,
+    "teamTwo": "Equador",
+    "flagTeamTwo": "equador.png",
+    "scoreTeamTwo": 0
+  },
+  {
+    "teamOne": "Senegal",
+    "group": "Grupo A",
+    "eventDateTime": "2022-11-21 13:00",
+    "flagTeamOne": "senegal.png",
+    "scoreTeamOne": 0,
+    "teamTwo": "Holanda",
+    "flagTeamTwo": "holanda.png",
+    "scoreTeamTwo": 2
+  },
+  {
+    "teamOne": "Catar",
+    "group": "Grupo A",
+    "eventDateTime": "2022-11-25 10:00",
+    "flagTeamOne": "catar.png",
+    "scoreTeamOne": 0,
+    "teamTwo": "Senegal",
+    "flagTeamTwo": "senegal.png",
+    "scoreTeamTwo": 0
+  },
+  {
+    "teamOne": "Holanda",
+    "group": "Grupo A",
+    "eventDateTime": "2022-11-21 13:00",
+    "flagTeamOne": "holanda.png",
+    "scoreTeamOne": 0,
+    "teamTwo": "Equador",
+    "flagTeamTwo": "equador.png",
+    "scoreTeamTwo": 2
+  },
+  {
+    "teamOne": "Inglaterra",
+    "group": "Grupo B",
+    "eventDateTime": "2022-11-21 10:00",
+    "flagTeamOne": "inglaterra.png",
+    "scoreTeamOne": 0,
+    "teamTwo": "Irã",
+    "flagTeamTwo": "ira.png",
+    "scoreTeamTwo": 0
+  },
+  {
+    "teamOne": "EUA",
+    "group": "Grupo B",
+    "eventDateTime": "2022-11-21 16:00",
+    "flagTeamOne": "estados-unidos.png",
+    "scoreTeamOne": 0,
+    "teamTwo": "P. Gales",
+    "flagTeamTwo": "pais-gales.png",
+    "scoreTeamTwo": 0
+  },
+  {
+    "teamOne": "P. Gales",
+    "group": "Grupo B",
+    "eventDateTime": "2022-11-25 07:00",
+    "flagTeamOne": "pais-gales.png",
+    "scoreTeamOne": 0,
+    "teamTwo": "Irã",
+    "flagTeamTwo": "ira.png",
+    "scoreTeamTwo": 0
+  },
+  {
+    "teamOne": "Inglaterra",
+    "group": "Grupo B",
+    "eventDateTime": "2022-11-25 16:00",
+    "flagTeamOne": "inglaterra.png",
+    "scoreTeamOne": 0,
+    "teamTwo": "EUA",
+    "flagTeamTwo": "estados-unidos.png",
+    "scoreTeamTwo": 0
+  }
+]

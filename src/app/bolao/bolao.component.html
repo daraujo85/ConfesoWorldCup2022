@@ -1,0 +1,24 @@
+<app-menu></app-menu>
+<br/>
+<br/>
+<br/>
+<div class="content">
+  <div class="row group">
+    <div class="col-md-12">
+      <h1>Grupo A</h1>
+    </div>
+    <hr>
+    <div class="col-md-12" *ngFor="let matchGroupA of matchesGroupA">
+      <app-match [match]="matchGroupA"></app-match>
+    </div>
+  </div>
+  <div class="row group">
+    <div class="col-md-12">
+      <h1>Grupo B</h1>
+    </div>
+    <hr>
+    <div class="col-md-12" *ngFor="let matchGroupB of matchesGroupB">
+      <app-match [match]="matchGroupB"></app-match>
+    </div>
+  </div>
+</div>

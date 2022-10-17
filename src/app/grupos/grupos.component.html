@@ -1,0 +1,15 @@
+<app-menu></app-menu>
+<div class="content">
+  <div class="row">
+    <div class="col-md-12">
+      <h1>Grupos</h1>
+    </div>
+    <hr />
+  </div>
+  <div class="row">
+    <div class="col-md-6 group" *ngFor="let group of groups">
+      <app-group [group]="group"></app-group>
+    </div>
+  </div>
+
+</div>

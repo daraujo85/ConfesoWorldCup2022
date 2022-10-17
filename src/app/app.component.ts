@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { GroupModel } from 'src/models/group.models';
-import { GroupService } from 'src/services/group.service';
 
 @Component({
   selector: 'app-root',
@@ -9,15 +7,13 @@ import { GroupService } from 'src/services/group.service';
 })
 export class AppComponent implements OnInit {
   title = 'World Cup 2022';
-  groups!:GroupModel[];
 
-  constructor(private groupService:GroupService) {
+
+  constructor() {
     
   }
   ngOnInit(): void {
-    this.groupService.getGroups().subscribe(data=> {
-      this.groups = data
-    })
+
   }
 
 }

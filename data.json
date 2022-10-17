@@ -1,204 +1,276 @@
 {
-    "groups": [
-        {
-            "name": "Grupo A",
-            "teams": [
-                {
-                    "name": "Catar",
-                    "flag": "catar.png",
-                    "position": 1
-                },
-                {
-                    "name": "Equador",
-                    "flag": "equador.png",
-                    "position": 2
-                },
-                {
-                    "name": "Senegal",
-                    "flag": "senegal.png",
-                    "position": 3
-                },
-                {
-                    "name": "Holanda",
-                    "flag": "holanda.png",
-                    "position": 4
-                }
-            ]
+  "groups": [{
+      "name": "Grupo A",
+      "teams": [{
+          "name": "Catar",
+          "flag": "catar.png",
+          "position": 1
         },
         {
-            "name": "Grupo B",
-            "teams": [
-                {
-                    "name": "Inglaterra",
-                    "flag": "inglaterra.png",
-                    "position": 1
-                },
-                {
-                    "name": "Irã",
-                    "flag": "ira.png",
-                    "position": 2
-                },
-                {
-                    "name": "Estados Unidos",
-                    "flag": "estados-unidos.png",
-                    "position": 3
-                },
-                {
-                    "name": "País de Gales",
-                    "flag": "pais-gales.png",
-                    "position": 4
-                }
-            ]
+          "name": "Equador",
+          "flag": "equador.png",
+          "position": 2
         },
         {
-            "name": "Grupo C",
-            "teams": [
-                {
-                    "name": "Argentina",
-                    "flag": "argentina.png",
-                    "position": 1
-                },
-                {
-                    "name": "Arábia Saudita",
-                    "flag": "arabia-saudita.png",
-                    "position": 2
-                },
-                {
-                    "name": "México",
-                    "flag": "mexico.png",
-                    "position": 3
-                },
-                {
-                    "name": "Polônia",
-                    "flag": "polonia.png",
-                    "position": 4
-                }
-            ]
+          "name": "Senegal",
+          "flag": "senegal.png",
+          "position": 3
         },
         {
-            "name": "Grupo D",
-            "teams": [
-                {
-                    "name": "França",
-                    "flag": "franca.png",
-                    "position": 1
-                },
-                {
-                    "name": "Australia",
-                    "flag": "australia.png",
-                    "position": 2
-                },
-                {
-                    "name": "Dinamarca",
-                    "flag": "dinamarca.png",
-                    "position": 3
-                },
-                {
-                    "name": "Tunísia",
-                    "flag": "tunisia.png",
-                    "position": 4
-                }
-            ]
-        },
-        {
-            "name": "Grupo E",
-            "teams": [
-                {
-                    "name": "Espanha",
-                    "flag": "espanha.png",
-                    "position": 1
-                },
-                {
-                    "name": "Costa Rica",
-                    "flag": "costa-rica.png",
-                    "position": 2
-                },
-                {
-                    "name": "Alemanha",
-                    "flag": "alemanha.png",
-                    "position": 3
-                },
-                {
-                    "name": "Japão",
-                    "flag": "japao.png",
-                    "position": 4
-                }
-            ]
-        },
-        {
-            "name": "Grupo F",
-            "teams": [
-                {
-                    "name": "Bélgica",
-                    "flag": "belgica.png",
-                    "position": 1
-                },
-                {
-                    "name": "Canadá",
-                    "flag": "canada.png",
-                    "position": 2
-                },
-                {
-                    "name": "Marrocos",
-                    "flag": "marrocos.png",
-                    "position": 3
-                },
-                {
-                    "name": "Croacia",
-                    "flag": "croacia.png",
-                    "position": 4
-                }
-            ]
-        },
-        {
-            "name": "Grupo G",
-            "teams": [
-                {
-                    "name": "Brasil",
-                    "flag": "brasil.png",
-                    "position": 1
-                },
-                {
-                    "name": "Sérvia",
-                    "flag": "equador.png",
-                    "position": 2
-                },
-                {
-                    "name": "Suíça",
-                    "flag": "senegal.png",
-                    "position": 3
-                },
-                {
-                    "name": "Camarões",
-                    "flag": "camaroes.png",
-                    "position": 4
-                }
-            ]
-        },
-        {
-            "name": "Grupo H",
-            "teams": [
-                {
-                    "name": "Portugal",
-                    "flag": "portugal.png",
-                    "position": 1
-                },
-                {
-                    "name": "Gana",
-                    "flag": "gana.png",
-                    "position": 2
-                },
-                {
-                    "name": "Uruguai",
-                    "flag": "uruguai.png",
-                    "position": 3
-                },
-                {
-                    "name": "Coreia do Sul",
-                    "flag": "coreia-sul.png",
-                    "position": 4
-                }
-            ]
+          "name": "Holanda",
+          "flag": "holanda.png",
+          "position": 4
         }
-    ]
+      ]
+    },
+    {
+      "name": "Grupo B",
+      "teams": [{
+          "name": "Inglaterra",
+          "flag": "inglaterra.png",
+          "position": 1
+        },
+        {
+          "name": "Irã",
+          "flag": "ira.png",
+          "position": 2
+        },
+        {
+          "name": "Estados Unidos",
+          "flag": "estados-unidos.png",
+          "position": 3
+        },
+        {
+          "name": "País de Gales",
+          "flag": "pais-gales.png",
+          "position": 4
+        }
+      ]
+    },
+    {
+      "name": "Grupo C",
+      "teams": [{
+          "name": "Argentina",
+          "flag": "argentina.png",
+          "position": 1
+        },
+        {
+          "name": "Arábia Saudita",
+          "flag": "arabia-saudita.png",
+          "position": 2
+        },
+        {
+          "name": "México",
+          "flag": "mexico.png",
+          "position": 3
+        },
+        {
+          "name": "Polônia",
+          "flag": "polonia.png",
+          "position": 4
+        }
+      ]
+    },
+    {
+      "name": "Grupo D",
+      "teams": [{
+          "name": "França",
+          "flag": "franca.png",
+          "position": 1
+        },
+        {
+          "name": "Australia",
+          "flag": "australia.png",
+          "position": 2
+        },
+        {
+          "name": "Dinamarca",
+          "flag": "dinamarca.png",
+          "position": 3
+        },
+        {
+          "name": "Tunísia",
+          "flag": "tunisia.png",
+          "position": 4
+        }
+      ]
+    },
+    {
+      "name": "Grupo E",
+      "teams": [{
+          "name": "Espanha",
+          "flag": "espanha.png",
+          "position": 1
+        },
+        {
+          "name": "Costa Rica",
+          "flag": "costa-rica.png",
+          "position": 2
+        },
+        {
+          "name": "Alemanha",
+          "flag": "alemanha.png",
+          "position": 3
+        },
+        {
+          "name": "Japão",
+          "flag": "japao.png",
+          "position": 4
+        }
+      ]
+    },
+    {
+      "name": "Grupo F",
+      "teams": [{
+          "name": "Bélgica",
+          "flag": "belgica.png",
+          "position": 1
+        },
+        {
+          "name": "Canadá",
+          "flag": "canada.png",
+          "position": 2
+        },
+        {
+          "name": "Marrocos",
+          "flag": "marrocos.png",
+          "position": 3
+        },
+        {
+          "name": "Croacia",
+          "flag": "croacia.png",
+          "position": 4
+        }
+      ]
+    },
+    {
+      "name": "Grupo G",
+      "teams": [{
+          "name": "Brasil",
+          "flag": "brasil.png",
+          "position": 1
+        },
+        {
+          "name": "Sérvia",
+          "flag": "equador.png",
+          "position": 2
+        },
+        {
+          "name": "Suíça",
+          "flag": "suica.png",
+          "position": 3
+        },
+        {
+          "name": "Camarões",
+          "flag": "camaroes.png",
+          "position": 4
+        }
+      ]
+    },
+    {
+      "name": "Grupo H",
+      "teams": [{
+          "name": "Portugal",
+          "flag": "portugal.png",
+          "position": 1
+        },
+        {
+          "name": "Gana",
+          "flag": "gana.png",
+          "position": 2
+        },
+        {
+          "name": "Uruguai",
+          "flag": "uruguai.png",
+          "position": 3
+        },
+        {
+          "name": "Coreia do Sul",
+          "flag": "coreia-sul.png",
+          "position": 4
+        }
+      ]
+    }
+  ],
+  "matches": [{
+      "teamOne": "Catar",
+      "group": "Grupo A",
+      "eventDateTime": "2022-11-20 13:00",
+      "flagTeamOne": "catar.png",
+      "scoreTeamOne": 0,
+      "teamTwo": "Equador",
+      "flagTeamTwo": "equador.png",
+      "scoreTeamTwo": 0
+    },
+    {
+      "teamOne": "Senegal",
+      "group": "Grupo A",
+      "eventDateTime": "2022-11-21 13:00",
+      "flagTeamOne": "senegal.png",
+      "scoreTeamOne": 0,
+      "teamTwo": "Holanda",
+      "flagTeamTwo": "holanda.png",
+      "scoreTeamTwo": 2
+    },
+    {
+      "teamOne": "Catar",
+      "group": "Grupo A",
+      "eventDateTime": "2022-11-25 10:00",
+      "flagTeamOne": "catar.png",
+      "scoreTeamOne": 0,
+      "teamTwo": "Senegal",
+      "flagTeamTwo": "senegal.png",
+      "scoreTeamTwo": 0
+    },
+    {
+      "teamOne": "Holanda",
+      "group": "Grupo A",
+      "eventDateTime": "2022-11-21 13:00",
+      "flagTeamOne": "holanda.png",
+      "scoreTeamOne": 0,
+      "teamTwo": "Equador",
+      "flagTeamTwo": "equador.png",
+      "scoreTeamTwo": 2
+    },
+    {
+      "teamOne": "Inglaterra",
+      "group": "Grupo B",
+      "eventDateTime": "2022-11-21 10:00",
+      "flagTeamOne": "inglaterra.png",
+      "scoreTeamOne": 0,
+      "teamTwo": "Irã",
+      "flagTeamTwo": "ira.png",
+      "scoreTeamTwo": 0
+    },
+    {
+      "teamOne": "EUA",
+      "group": "Grupo B",
+      "eventDateTime": "2022-11-21 16:00",
+      "flagTeamOne": "estados-unidos.png",
+      "scoreTeamOne": 0,
+      "teamTwo": "P. Gales",
+      "flagTeamTwo": "pais-gales.png",
+      "scoreTeamTwo": 0
+    },
+    {
+      "teamOne": "P. Gales",
+      "group": "Grupo B",
+      "eventDateTime": "2022-11-25 07:00",
+      "flagTeamOne": "pais-gales.png",
+      "scoreTeamOne": 0,
+      "teamTwo": "Irã",
+      "flagTeamTwo": "ira.png",
+      "scoreTeamTwo": 0
+    },
+    {
+      "teamOne": "Inglaterra",
+      "group": "Grupo B",
+      "eventDateTime": "2022-11-25 16:00",
+      "flagTeamOne": "inglaterra.png",
+      "scoreTeamOne": 0,
+      "teamTwo": "EUA",
+      "flagTeamTwo": "estados-unidos.png",
+      "scoreTeamTwo": 0
+    }
+  ]
 }

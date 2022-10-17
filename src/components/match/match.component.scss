@@ -1,0 +1,30 @@
+h2{
+    color: #a87b54;;
+    margin: 10px;
+    font-size: smaller;
+}
+span, input{
+    margin: 5px;
+}
+input[type='number']{
+    max-width: 30px;
+    height: 20px;
+    text-align: center;
+    font-weight: 600;
+    color: #94183a;
+}
+input[type='button']{
+    color: #fff;
+    background-color: #94183a;
+    border: 1px solid #513925;
+    padding: 5px;
+    border-radius: 5px;
+}
+.palpite
+{
+    text-align: end;
+}
+img{
+    
+    vertical-align: middle;
+}

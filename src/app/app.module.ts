@@ -1,22 +1,38 @@
-import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
+import { NgModule } from '@angular/core';
+import { FormGroup, FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
+import { RouterModule } from '@angular/router';
+import { MatchComponent } from 'src/components/match/match.component';
+import { BolaoGuard } from 'src/guards/bolao.guard';
 
+import { GroupComponent } from '../components/group/group.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { GroupComponent } from '../components/group/group.component';
+import { BolaoComponent } from './bolao/bolao.component';
+import { GruposComponent } from './grupos/grupos.component';
+import { LoginComponent } from './login/login.component';
+import { MenuComponent } from './menu/menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    GroupComponent
+    GroupComponent,
+    MatchComponent,
+    BolaoComponent,
+    GruposComponent,
+    LoginComponent,
+    MenuComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    RouterModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
-  providers: [],
+  providers: [BolaoGuard],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

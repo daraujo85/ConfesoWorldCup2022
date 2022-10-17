@@ -11,6 +11,7 @@ export class GroupService {
   constructor(private httpClient: HttpClient) { }
 
   getGroups(): Observable<GroupModel[]> {
-    return this.httpClient.get<GroupModel[]>('http://localhost:3000/groups');
+    //return this.httpClient.get<GroupModel[]>('http://localhost:3000/groups');
+    return this.httpClient.get<GroupModel[]>('assets/data/groups.json');
   }
 }

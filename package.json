@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "concurrently \"json-server data.json\" \"ng serve\"",
-    "build": "ng build",
+    "build": "ng build && copy .htaccess \"dist/world-cup2022/\"",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
