@@ -1,0 +1,18 @@
+<h1>{{group.name}}</h1>
+    <table>
+        <thead>
+            <th>Posição</th>
+            <th>Time</th>
+        </thead>
+        <tbody>
+            <tr *ngFor="let team of group.teams">
+                <td class="position">
+                    {{team.position}}
+                </td>
+                <td>
+                    <img src="../../assets/img/flags/{{team.flag}}" alt="">
+                    {{team.name}}
+                </td>
+            </tr>
+        </tbody>
+    </table>

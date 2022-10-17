@@ -2,7 +2,7 @@
     "groups": [
         {
             "name": "Grupo A",
-            "Teams": [
+            "teams": [
                 {
                     "name": "Catar",
                     "flag": "catar.png",
@@ -27,7 +27,7 @@
         },
         {
             "name": "Grupo B",
-            "Teams": [
+            "teams": [
                 {
                     "name": "Inglaterra",
                     "flag": "inglaterra.png",
@@ -52,7 +52,7 @@
         },
         {
             "name": "Grupo C",
-            "Teams": [
+            "teams": [
                 {
                     "name": "Argentina",
                     "flag": "argentina.png",
@@ -77,7 +77,7 @@
         },
         {
             "name": "Grupo D",
-            "Teams": [
+            "teams": [
                 {
                     "name": "França",
                     "flag": "franca.png",
@@ -102,7 +102,7 @@
         },
         {
             "name": "Grupo E",
-            "Teams": [
+            "teams": [
                 {
                     "name": "Espanha",
                     "flag": "espanha.png",
@@ -127,7 +127,7 @@
         },
         {
             "name": "Grupo F",
-            "Teams": [
+            "teams": [
                 {
                     "name": "Bélgica",
                     "flag": "belgica.png",
@@ -152,7 +152,7 @@
         },
         {
             "name": "Grupo G",
-            "Teams": [
+            "teams": [
                 {
                     "name": "Brasil",
                     "flag": "brasil.png",
@@ -177,7 +177,7 @@
         },
         {
             "name": "Grupo H",
-            "Teams": [
+            "teams": [
                 {
                     "name": "Portugal",
                     "flag": "portugal.png",

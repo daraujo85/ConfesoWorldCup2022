@@ -1,9 +1,10 @@
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { GroupComponent } from './group/group.component';
+import { GroupComponent } from '../components/group/group.component';
 
 @NgModule({
   declarations: [
@@ -12,7 +13,8 @@ import { GroupComponent } from './group/group.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
