@@ -1,7 +1,8 @@
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
-import { FormGroup, FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule } from '@angular/router';
 import { MatchComponent } from 'src/components/match/match.component';
 import { BolaoGuard } from 'src/guards/bolao.guard';
@@ -22,7 +23,7 @@ import { MenuComponent } from './menu/menu.component';
     BolaoComponent,
     GruposComponent,
     LoginComponent,
-    MenuComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +31,8 @@ import { MenuComponent } from './menu/menu.component';
     HttpClientModule,
     RouterModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    BrowserAnimationsModule
   ],
   providers: [BolaoGuard],
   bootstrap: [AppComponent]

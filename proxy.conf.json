@@ -1,0 +1,10 @@
+{
+    "/auth": {
+      "target": "https://copadomundo-backend.herokuapp.com",
+      "secure": true,
+      "changeOrigin": true,
+      "pathRewrite": {
+        "^/api": ""
+      }
+    }
+  }

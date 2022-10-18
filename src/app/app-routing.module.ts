@@ -6,10 +6,10 @@ import { GruposComponent } from './grupos/grupos.component';
 import { LoginComponent } from './login/login.component';
 
 const routes: Routes = [
-  { path: '', component: GruposComponent},
-  { path: 'grupos', component: GruposComponent },
-  { path: 'login', component: LoginComponent },
-  { path: 'bolao', component: BolaoComponent, canActivate: [BolaoGuard]},
+  { path: '', component: GruposComponent },
+  { path: 'grupos', component: GruposComponent, data: { animationState: 'Two' } },
+  { path: 'login', component: LoginComponent, data: { animationState: 'One' } },
+  { path: 'bolao', component: BolaoComponent, canActivate: [BolaoGuard] , data: { animationState: 'Three' }},
 ];
 
 @NgModule({

@@ -31,7 +31,7 @@
   {
     "teamOne": "Holanda",
     "group": "Grupo A",
-    "eventDateTime": "2022-11-21 13:00",
+    "eventDateTime": "2022-11-25 13:00",
     "flagTeamOne": "holanda.png",
     "scoreTeamOne": 0,
     "teamTwo": "Equador",
@@ -76,6 +76,246 @@
     "scoreTeamOne": 0,
     "teamTwo": "EUA",
     "flagTeamTwo": "estados-unidos.png",
+    "scoreTeamTwo": 0
+  },
+  {
+    "teamOne": "Argentina",
+    "group": "Grupo C",
+    "eventDateTime": "2022-11-22 07:00",
+    "flagTeamOne": "argentina.png",
+    "scoreTeamOne": 0,
+    "teamTwo": "Arábia S.",
+    "flagTeamTwo": "arabia-saudita.png",
+    "scoreTeamTwo": 0
+  },
+  {
+    "teamOne": "México",
+    "group": "Grupo C",
+    "eventDateTime": "2022-11-22 13:00",
+    "flagTeamOne": "mexico.png",
+    "scoreTeamOne": 0,
+    "teamTwo": "Polônia",
+    "flagTeamTwo": "polonia.png",
+    "scoreTeamTwo": 0
+  },
+  {
+    "teamOne": "Polônia",
+    "group": "Grupo C",
+    "eventDateTime": "2022-11-26 10:00",
+    "flagTeamOne": "polonia.png",
+    "scoreTeamOne": 0,
+    "teamTwo": "Arábia S.",
+    "flagTeamTwo": "arabia-saudita.png",
+    "scoreTeamTwo": 0
+  },
+  {
+    "teamOne": "Argentina",
+    "group": "Grupo C",
+    "eventDateTime": "2022-11-26 16:00",
+    "flagTeamOne": "argentina.png",
+    "scoreTeamOne": 0,
+    "teamTwo": "México",
+    "flagTeamTwo": "mexico.png",
+    "scoreTeamTwo": 0
+  },
+  {
+    "teamOne": "Dinamarca",
+    "group": "Grupo D",
+    "eventDateTime": "2022-11-22 10:00",
+    "flagTeamOne": "dinamarca.png",
+    "scoreTeamOne": 0,
+    "teamTwo": "Tunísia",
+    "flagTeamTwo": "tunisia.png",
+    "scoreTeamTwo": 0
+  },
+  {
+    "teamOne": "França",
+    "group": "Grupo D",
+    "eventDateTime": "2022-11-22 16:00",
+    "flagTeamOne": "franca.png",
+    "scoreTeamOne": 0,
+    "teamTwo": "Austrália",
+    "flagTeamTwo": "australia.png",
+    "scoreTeamTwo": 0
+  },
+  {
+    "teamOne": "Tunísia",
+    "group": "Grupo D",
+    "eventDateTime": "2022-11-26 07:00",
+    "flagTeamOne": "tunisia.png",
+    "scoreTeamOne": 0,
+    "teamTwo": "Austrália",
+    "flagTeamTwo": "australia.png",
+    "scoreTeamTwo": 0
+  },
+  {
+    "teamOne": "França",
+    "group": "Grupo D",
+    "eventDateTime": "2022-11-26 13:00",
+    "flagTeamOne": "franca.png",
+    "scoreTeamOne": 0,
+    "teamTwo": "Dinamarca",
+    "flagTeamTwo": "dinamarca.png",
+    "scoreTeamTwo": 0
+  },
+  {
+    "teamOne": "Alemanha",
+    "group": "Grupo E",
+    "eventDateTime": "2022-11-23 10:00",
+    "flagTeamOne": "alemanha.png",
+    "scoreTeamOne": 0,
+    "teamTwo": "Japão",
+    "flagTeamTwo": "japao.png",
+    "scoreTeamTwo": 0
+  },
+  {
+    "teamOne": "Espanha",
+    "group": "Grupo E",
+    "eventDateTime": "2022-11-23 13:00",
+    "flagTeamOne": "espanha.png",
+    "scoreTeamOne": 0,
+    "teamTwo": "Costa Rica",
+    "flagTeamTwo": "costa-rica.png",
+    "scoreTeamTwo": 0
+  },
+  {
+    "teamOne": "Japão",
+    "group": "Grupo E",
+    "eventDateTime": "2022-11-27 07:00",
+    "flagTeamOne": "japao.png",
+    "scoreTeamOne": 0,
+    "teamTwo": "Costa Rica",
+    "flagTeamTwo": "costa-rica.png",
+    "scoreTeamTwo": 0
+  },
+  {
+    "teamOne": "Espanha",
+    "group": "Grupo E",
+    "eventDateTime": "2022-11-27 16:00",
+    "flagTeamOne": "espanha.png",
+    "scoreTeamOne": 0,
+    "teamTwo": "Alemanha",
+    "flagTeamTwo": "alemanha.png",
+    "scoreTeamTwo": 0
+  },
+  {
+    "teamOne": "Marrocos",
+    "group": "Grupo F",
+    "eventDateTime": "2022-11-23 07:00",
+    "flagTeamOne": "marrocos.png",
+    "scoreTeamOne": 0,
+    "teamTwo": "Croácia",
+    "flagTeamTwo": "croacia.png",
+    "scoreTeamTwo": 0
+  },
+  {
+    "teamOne": "Bélgica",
+    "group": "Grupo F",
+    "eventDateTime": "2022-11-23 16:00",
+    "flagTeamOne": "belgica.png",
+    "scoreTeamOne": 0,
+    "teamTwo": "Canadá",
+    "flagTeamTwo": "canada.png",
+    "scoreTeamTwo": 0
+  },
+  {
+    "teamOne": "Bélgica",
+    "group": "Grupo F",
+    "eventDateTime": "2022-11-27 10:00",
+    "flagTeamOne": "belgica.png",
+    "scoreTeamOne": 0,
+    "teamTwo": "Marrocos",
+    "flagTeamTwo": "marrocos.png",
+    "scoreTeamTwo": 0
+  },
+  {
+    "teamOne": "Croácia",
+    "group": "Grupo F",
+    "eventDateTime": "2022-11-27 10:00",
+    "flagTeamOne": "croacia.png",
+    "scoreTeamOne": 0,
+    "teamTwo": "Canadá",
+    "flagTeamTwo": "canada.png",
+    "scoreTeamTwo": 0
+  },
+  {
+    "teamOne": "Suíça",
+    "group": "Grupo G",
+    "eventDateTime": "2022-11-24 07:00",
+    "flagTeamOne": "suica.png",
+    "scoreTeamOne": 0,
+    "teamTwo": "Camarões",
+    "flagTeamTwo": "camaroes.png",
+    "scoreTeamTwo": 0
+  },
+  {
+    "teamOne": "Brasil",
+    "group": "Grupo G",
+    "eventDateTime": "2022-11-24 16:00",
+    "flagTeamOne": "brasil.png",
+    "scoreTeamOne": 0,
+    "teamTwo": "Sérvia",
+    "flagTeamTwo": "servia.png",
+    "scoreTeamTwo": 0
+  },
+  {
+    "teamOne": "Camarões",
+    "group": "Grupo G",
+    "eventDateTime": "2022-11-28 07:00",
+    "flagTeamOne": "camaroes.png",
+    "scoreTeamOne": 0,
+    "teamTwo": "Sérvia",
+    "flagTeamTwo": "servia.png",
+    "scoreTeamTwo": 0
+  },
+  {
+    "teamOne": "Brasil",
+    "group": "Grupo G",
+    "eventDateTime": "2022-11-28 13:00",
+    "flagTeamOne": "brasil.png",
+    "scoreTeamOne": 0,
+    "teamTwo": "Suíça",
+    "flagTeamTwo": "suica.png",
+    "scoreTeamTwo": 0
+  },
+  {
+    "teamOne": "Uruguai",
+    "group": "Grupo H",
+    "eventDateTime": "2022-11-24 10:00",
+    "flagTeamOne": "uruguai.png",
+    "scoreTeamOne": 0,
+    "teamTwo": "Coreia do Sul",
+    "flagTeamTwo": "coreia-sul.png",
+    "scoreTeamTwo": 0
+  },
+  {
+    "teamOne": "Portugal",
+    "group": "Grupo H",
+    "eventDateTime": "2022-11-24 13:00",
+    "flagTeamOne": "portugal.png",
+    "scoreTeamOne": 0,
+    "teamTwo": "Gana",
+    "flagTeamTwo": "gana.png",
+    "scoreTeamTwo": 0
+  },
+  {
+    "teamOne": "Coreia do Sul",
+    "group": "Grupo H",
+    "eventDateTime": "2022-11-28 10:00",
+    "flagTeamOne": "coreia-sul.png",
+    "scoreTeamOne": 0,
+    "teamTwo": "Gana",
+    "flagTeamTwo": "gana.png",
+    "scoreTeamTwo": 0
+  },
+  {
+    "teamOne": "Portugal",
+    "group": "Grupo H",
+    "eventDateTime": "2022-11-28 16:00",
+    "flagTeamOne": "portugal.png",
+    "scoreTeamOne": 0,
+    "teamTwo": "Uruguai",
+    "flagTeamTwo": "uruguai.png",
     "scoreTeamTwo": 0
   }
 ]
