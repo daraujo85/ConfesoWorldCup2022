@@ -22,7 +22,7 @@ export class BolaoComponent implements OnInit {
 
   ngOnInit(): void {
 
-    this.matchService.getGroups().subscribe(data => {
+    this.matchService.getMatches().subscribe(data => {
 
       this.matchesGroupA = data.filter(x => x.group == "Grupo A")
       this.matchesGroupB = data.filter(x => x.group == "Grupo B")

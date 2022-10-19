@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { AuthService } from 'src/services/auth.service';
+import { SorteioService } from 'src/services/sorteio.service';
 
 @Component({
   selector: 'app-login',
@@ -9,19 +10,46 @@ import { AuthService } from 'src/services/auth.service';
   styleUrls: ['./login.component.scss']
 })
 export class LoginComponent implements OnInit {
+
+
+
+
   myForm = new FormGroup({
     usuario: new FormControl('', [Validators.required]),
     senha: new FormControl('', [Validators.required]),
   });
   errorMessage!: string
 
-  constructor(private router: Router, private authService: AuthService) { }
+  constructor(private router: Router
+    , private authService: AuthService
+    , private sorteioService: SorteioService) { }
 
   ngOnInit(): void {
-    console.log(this.authService.isAuthenticated())
     this.checkIsAuthenticated();
-    this.loadScript('./assets/js/login.js');
     this.loadScript('./assets/js/anime.js');
+    this.loadScript('./assets/js/login.js');
+
+  }
+  getSubscribers() {
+    // while (!this.sorteioService.end) {
+
+
+    this.sorteioService.getSubscribers().subscribe(result => {
+      debugger
+      this.sorteioService.end = result.pageInfo.totalResults < result.pageInfo.resultsPerPage
+
+      this.sorteioService.pageToken = result.nextPageToken ?? result.nextPageToken
+
+      result.items.forEach((data: any) => {
+
+        this.sorteioService.subscribers.push(data.snippet);
+
+      });
+
+    })
+
+    //}
+
   }
 
   checkIsAuthenticated() {

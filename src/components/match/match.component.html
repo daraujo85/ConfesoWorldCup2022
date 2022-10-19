@@ -1,11 +1,12 @@
 <h2>{{ match.eventDateTime}}</h2>
-<div class="palpite">
+<form class="palpite" [formGroup]="formBet" (ngSubmit)="save()">
   <span>{{ match.teamOne}}</span>
   <img src="../../assets/img/flags/{{ match.flagTeamOne}}" alt="">
-  <input id="geTeamOne" type="number" min="0">
+  <input id="geTeamOne" type="number" min="0" formControlName="scoreTeamOne">
   <span>x</span>
-  <input id="geTeamTwwo" type="number" min="0">
+  <input id="geTeamTwo" type="number" min="0" formControlName="scoreTeamTwo">
   <img src="../../assets/img/flags/{{ match.flagTeamTwo}}" alt="">
   <span>{{ match.teamTwo}}</span>
-  <input type="button" value="Salvar Palpite">
-</div>
+  <!-- <input type="button" value="Salvar Palpite"> -->
+  <button>Salvar</button>
+</form>

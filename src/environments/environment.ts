@@ -4,7 +4,9 @@
 
 export const environment = {
   production: false,
-  auth: '/auth'
+  auth: '/auth',
+  groups: 'https://copadomundo-backend.herokuapp.com/groups',
+  matches: 'assets/data/matches.json'
 };
 
 /*

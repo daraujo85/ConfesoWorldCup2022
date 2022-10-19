@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
+import { environment } from 'src/environments/environment';
 import { MatchModel } from 'src/models/match.models';
 
 @Injectable({
@@ -10,8 +11,7 @@ export class MatchService {
 
   constructor(private httpClient: HttpClient) { }
 
-  getGroups(): Observable<MatchModel[]> {
-    //return this.httpClient.get<MatchModel[]>('http://localhost:3000/matches');
-    return this.httpClient.get<MatchModel[]>('assets/data/matches.json');
+  getMatches(): Observable<MatchModel[]> {
+    return this.httpClient.get<MatchModel[]>(environment.matches);
   }
 }

@@ -3,7 +3,7 @@ h2{
     margin: 10px;
     font-size: smaller;
 }
-span, input{
+span, input, button{
     margin: 5px;
 }
 input[type='number']{
@@ -13,7 +13,7 @@ input[type='number']{
     font-weight: 600;
     color: #94183a;
 }
-input[type='button']{
+button{
     color: #fff;
     background-color: #94183a;
     border: 1px solid #513925;

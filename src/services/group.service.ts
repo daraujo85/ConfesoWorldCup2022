@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
+import { environment } from 'src/environments/environment';
 import { GroupModel } from 'src/models/group.models';
 
 @Injectable({
@@ -11,7 +12,6 @@ export class GroupService {
   constructor(private httpClient: HttpClient) { }
 
   getGroups(): Observable<GroupModel[]> {
-    //return this.httpClient.get<GroupModel[]>('http://localhost:3000/groups');
-    return this.httpClient.get<GroupModel[]>('assets/data/groups.json');
+    return this.httpClient.get<GroupModel[]>(environment.groups);
   }
 }
